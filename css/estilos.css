@@ -44,6 +44,15 @@ body{
 
 /* Nav */
 
+.nav__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav__logo img {
+    width: 80px; /* Ajusta este valor según tus necesidades */
+    height: auto; /* Esto mantendrá la proporción de la imagen */
+}
 .nav{
     --padding-container:0;
     height: 100%;
